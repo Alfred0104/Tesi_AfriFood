@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "162568457173",
+    "project_id": "afrifood-19db8",
+    "storage_bucket": "afrifood-19db8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162568457173:android:292f5a7ebf29d2ac33cb5c",
+        "android_client_info": {
+          "package_name": "com.example.afrifood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162568457173-1comu611tigulacfs602bh97d6bp3lgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXXLJNMspoYJ679tn4KX37TVTtSHZLRfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162568457173-1comu611tigulacfs602bh97d6bp3lgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162568457173:android:8e06f45787dd94d633cb5c",
+        "android_client_info": {
+          "package_name": "com.example.afrifoodadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162568457173-1comu611tigulacfs602bh97d6bp3lgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXXLJNMspoYJ679tn4KX37TVTtSHZLRfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162568457173-1comu611tigulacfs602bh97d6bp3lgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

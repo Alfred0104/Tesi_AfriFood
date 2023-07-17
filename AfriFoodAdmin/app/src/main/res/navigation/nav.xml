@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.afrifoodadmin.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_addfoodFragment"
+            app:destination="@id/addfoodFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addcountryFragment"
+            app:destination="@id/addcountryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addstoreFragment"
+            app:destination="@id/addstoreFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_productFragment"
+            app:destination="@id/productFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addaccompanimentFragment4"
+            app:destination="@id/addaccompanimentFragment4" />
+        <action
+            android:id="@+id/action_homeFragment_to_sliderFragment"
+            app:destination="@id/sliderFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addproductFragment"
+            app:destination="@id/addproductFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_foodFragment"
+            app:destination="@id/foodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addcountryFragment"
+        android:name="com.example.afrifoodadmin.fragments.AddcountryFragment"
+        android:label="fragment_addcountry"
+        tools:layout="@layout/fragment_addcountry" />
+    <fragment
+        android:id="@+id/addfoodFragment"
+        android:name="com.example.afrifoodadmin.fragments.AddfoodFragment"
+        android:label="fragment_addfood"
+        tools:layout="@layout/fragment_addfood" />
+    <fragment
+        android:id="@+id/addproductFragment"
+        android:name="com.example.afrifoodadmin.fragments.AddproductFragment"
+        android:label="fragment_addproduct"
+        tools:layout="@layout/fragment_addproduct" />
+    <fragment
+        android:id="@+id/addstoreFragment"
+        android:name="com.example.afrifoodadmin.fragments.AddstoreFragment"
+        android:label="fragment_addstore"
+        tools:layout="@layout/fragment_addstore" />
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.example.afrifoodadmin.fragments.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_productFragment_to_addproductFragment"
+            app:destination="@id/addproductFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addaccompanimentFragment4"
+        android:name="com.example.afrifoodadmin.fragments.AddaccompanimentFragment"
+        android:label="fragment_accompaniment"
+        tools:layout="@layout/fragment_accompaniment" />
+    <fragment
+        android:id="@+id/sliderFragment"
+        android:name="com.example.afrifoodadmin.fragments.SliderFragment"
+        android:label="fragment_slider"
+        tools:layout="@layout/fragment_slider" />
+    <fragment
+        android:id="@+id/foodFragment"
+        android:name="com.example.afrifoodadmin.fragments.FoodFragment"
+        android:label="fragment_food"
+        tools:layout="@layout/fragment_food" >
+        <action
+            android:id="@+id/action_foodFragment_to_addfoodFragment"
+            app:destination="@id/addfoodFragment" />
+    </fragment>
+</navigation>
